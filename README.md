@@ -35,7 +35,7 @@ A small ezpz module to fill and populate your objects when needed to preserve me
 If you have thicc af objects that you only use sometimes, this is a good use case.
 
 ```js
-import "@cursorsdottsx/f";
+import Fill from "@cursorsdottsx/f";
 
 function generateMyThiccObject() {
 	return { ... }; // a lotta shit
