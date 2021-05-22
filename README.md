@@ -64,15 +64,16 @@ npm install @cursorsdottsx/f
 yarn add @cursorsdottsx/f
 ```
 
-Once you import the library, it will create a `Fill` global object that you can use.
+Once you import the library, it will export a `Fill` object that you can use.
 
 It's API is very simple.
 
 ### Documentation
 
 #### `new Fill(blueprint, ...arguments)`
-- `blueprint` – Can be a function or class. This will replace the property with the return value of the function/class instance.
-- `arguments` – Arguments to pass to the function or class.
+
+-   `blueprint` – Can be a function or class. This will replace the property with the return value of the function/class instance.
+-   `arguments` – Arguments to pass to the function or class.
 
 Creates a new filler for your objects.
 
@@ -89,22 +90,26 @@ The arguments for the blueprint.
 Executes the blueprint with the arguments provided.
 
 `Fill.fill(object)`
-- `object` – Object to fill.
+
+-   `object` – Object to fill.
 
 Fills an object and replaces all `Fill` instances.
 
 `Fill.unfill(object)`
-- `object` – Object to restore.
+
+-   `object` – Object to restore.
 
 Restores a filled object back to its original state.
 
 `Fill.populate(object)`
-- `object` – Object to fill.
+
+-   `object` – Object to fill.
 
 Replaces the object's properties (in contrast to `fill` that returns a newly constructed object).
 
 `Fill.unpopulate(object)`
-- `object` – Object to restore.
+
+-   `object` – Object to restore.
 
 Restores the object's properties (in constrast to `unfill` that returns a newly reconstructed object).
 
