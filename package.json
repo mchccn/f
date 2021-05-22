@@ -1,6 +1,6 @@
 {
   "name": "@cursorsdottsx/f",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A small ezpz module to fill and populate your objects when needed to preserve memory.",
   "main": "index.js",
   "scripts": {
